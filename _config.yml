@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Nomad-Desktop"
-title_separator          : "-"
+title                    : "Nomad Desktop"
+title_separator          : "|"
 name                     : "Timothy Mostert"
-description              : "Every Nomad needs a home"
+description              : "Resources, advice and guidance for digital nomads, promoting a vibrant online community for the digital nomad lifestyle."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /assets/images/id-card-2.svg
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -64,7 +64,7 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Organisation
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
@@ -78,9 +78,9 @@ analytics:
 # Site Author
 author:
   name             : "Timothy Mostert"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/Tim-Mostert-Profile.jpg
   bio              : "I am a freelance web developer and operator of Nomad-Desktop; your digital home for the nomad lifestyle."
-  location         : "Anywhere, and everywhere"
+  location         : "Nomadic!"
   email            : resident@hotmail.co.za
   uri              :
   bitbucket        :
@@ -177,14 +177,6 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-# mimic GitHub Pages with --safe
-whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
