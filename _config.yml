@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Timothy Mostert"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a freelance web developer and operator of Nomad-Desktop your digital home for a nomad lifestyle."
+  bio              : "I am a freelance web developer and operator of Nomad-Desktop; your digital home for the nomad lifestyle."
   location         : "Anywhere, and everywhere"
   email            : resident@hotmail.co.za
   uri              :
@@ -112,8 +112,6 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
