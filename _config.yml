@@ -28,22 +28,6 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -78,7 +62,7 @@ analytics:
 # Site Author
 author:
   name             : "Timothy Mostert"
-  avatar           : /assets/images/Tim-Mostert-Profile.jpg
+  avatar           : /assets/images/Tim-Profile.png
   bio              : "I am a freelance web developer and operator of Nomad-Desktop; your digital home for the nomad lifestyle."
   location         : "Nomadic!"
   email            : resident@hotmail.co.za
@@ -176,7 +160,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
